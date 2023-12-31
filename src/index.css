@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+@layer components {
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+}
+
+@font-face {
+  font-family: "CooperHewitt-Light";
+  src: local("CooperHewitt-Light"),
+    url(./fonts/CooperHewitt-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Smooch-Regular";
+  src: local("Smooch-Regular"),
+    url(./fonts/Smooch-Regular.ttf) format("opentype");
+}
