@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { navLinks } from "../constants";
 import ScrollProgress from "./ScrollProgress ";
+import { Link } from "react-router-dom";
 import { airbnbLogo } from "../../assets";
 const Navbar = () => {
   const [scrollDirection, setScrollDirection] = useState("up");
@@ -42,8 +43,8 @@ const Navbar = () => {
               <ul className="flex-1 flex items-center gap-8 max-md:hidden ml-5 ">
                 {navLinks.map((item) => (
                   <li key={item.label}>
-                    <a
-                      href={item.href}
+                    <Link
+                      to={item.href}
                       className={`${
                         isPageAtTop
                           ? "hover:text-white text-white "
@@ -51,7 +52,7 @@ const Navbar = () => {
                       }font-montserrat leading-normal py-5 text-lg font-semibold transition-all ease-in-out duration-300`}
                     >
                       {item.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
