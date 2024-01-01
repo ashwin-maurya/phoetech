@@ -30,7 +30,7 @@ export default function Hero() {
           <div className="text-center pb-12 md:pb-16 flex flex-col justify-center items-center">
             <h1 className="text-[50px] w-[90%] max-sm:text-[30px] font-bold leading-tighter tracking-tighter mb-4">
               Elevate Your Business with PhoeTech's Services <br />
-              <span className="bg-clip-text font-Smooch tracking-wider pr-10 max-sm:pr-0 text-transparent bg-gradient-to-r from-blue-500 to-teal-400 max-sm:text-[20px] opacity-70">
+              <span className="bg-clip-text font-Smooch tracking-wider pr-10 max-sm:pr-0 text-transparent bg-gradient-to-r from-blue-500 to-teal-400 max-sm:text-[24px] opacity-70">
                 Your Path to Unprecedented Growth
               </span>
             </h1>

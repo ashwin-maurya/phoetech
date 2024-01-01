@@ -12,7 +12,7 @@ export default function Testimonials() {
           </h2>
           <div className="flex w-full flex-wrap justify-around mx-auto">
             <div className="flex gap-10 justify-center">
-              <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-sm w-80 max-sm:w-96">
+              <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-sm w-80 ">
                 <div class="p-6">
                   <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-100">
                     Proven Expertise:
@@ -25,7 +25,7 @@ export default function Testimonials() {
               </div>
             </div>
             <div className="flex gap-10 justify-center">
-              <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-sm w-80 max-sm:w-96">
+              <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-sm w-80 ">
                 <div class="p-6">
                   <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-100">
                     Innovation at the Core:{" "}
@@ -37,7 +37,7 @@ export default function Testimonials() {
               </div>
             </div>
             <div className="flex gap-10 justify-center">
-              <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-sm w-80 max-sm:w-96">
+              <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-sm w-80 ">
                 <div class="p-6">
                   <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-100">
                     Customer-Centric Approach:{" "}
