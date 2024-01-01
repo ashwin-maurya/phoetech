@@ -27,7 +27,7 @@ export default function ServicesModal({ services }) {
         >
           <li>
             <span to="/" className="block px-4 py-2 hover:bg-gray-100 ">
-              RBF Solutions
+              Revenue Boosting Frameworks
             </span>
           </li>
           <li>

@@ -4,15 +4,12 @@ export default function Services() {
   return (
     <>
       <div class="">
-        <section
-          id="features"
-          class="relative block px-6 py-10 md:py-20 md:px-10  "
-        >
+        <section id="features" class="relative block px-6 py-32">
           <div class="relative mx-auto max-w-5xl text-center">
             <h2 class="block w-full bg-gradient-to-b from-black to-gray-500 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
               Elevate Your Revenue with PhoeTech's RBF Solutions
             </h2>
-            <p class="mx-auto my-4 w-full max-w-[80%] bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-800">
+            <p class="mx-auto my-4 w-full max-w-[80%] max-sm:max-w-full max-sm:text-sm bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-800">
               At PhoeTech, we specialize in Revenue Boosting Frameworks (RBF)
               tailored for Direct-to-Consumer (D2C) businesses. Discover
               innovative strategies designed to propel your brand's growth, from
@@ -22,8 +19,8 @@ export default function Services() {
               Explore RBF Solutions ➜
             </p>
           </div>
-          <div className="flex gap-10 justify-center">
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+          <div className="flex gap-10 justify-center max-sm:flex-col max-sm:gap-5">
+            <div class="relative flex flex-col mt-6 text-gray-700 bg-white rounded-sm shadow-sm bg-clip-border w-96">
               <div class="p-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +55,7 @@ export default function Services() {
                 </a>
               </div>
             </div>
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+            <div class="relative flex flex-col mt-6 text-gray-700 bg-white rounded-sm shadow-sm bg-clip-border w-96">
               <div class="p-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

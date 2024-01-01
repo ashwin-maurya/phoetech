@@ -1,18 +1,15 @@
-import Hero from "./components/Hero";
 import Footer from "./components/common/Footer";
 import Navbar from "./components/common/Navbar";
-import Testimonials from "./components/Testimonials";
-import Services from "./components/Services";
-import Contact from "./components/Contact";
-import WhyChooseUs from "./components/WhyChooseUs";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import LandingPage from "./components/Pages/LandingPage";
 import AboutPage from "./components/Pages/AboutPage";
 import ContactPage from "./components/Pages/ContactPage";
 import ServicesPage from "./components/Pages/ServicesPage";
+import ScrollToTop from "./components/common/ScrollToTop";
 const App = () => (
   <>
     <Router>
+      <ScrollToTop />
       <Navbar />
       <div className="container relative">
         <Routes>

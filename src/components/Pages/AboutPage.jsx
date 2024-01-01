@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function AboutPage() {
   return (
     <>
@@ -20,7 +20,7 @@ export default function AboutPage() {
               achieving unprecedented success.
             </p>
           </div>
-          <div className="flex w-full justify-between items-center my-20">
+          <div className="flex w-full justify-between max-sm:flex-col items-center my-20">
             <div class="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
               <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
                 <h1 class="mt-2 text-3xl font-black   text-gray-300">
@@ -49,7 +49,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="w-[90%] flex justify-center items-center flex-col mx-auto  my-20">
+          <div className="w-[90%] max-sm:w-[100%]  flex justify-center items-center flex-col mx-auto  my-20">
             <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
               <h1 class="mt-2 text-3xl font-black   text-gray-300">
                 Core Values
@@ -57,7 +57,7 @@ export default function AboutPage() {
             </div>
             <div className="flex w-full flex-wrap justify-around mx-auto">
               <div className="flex gap-10 justify-center">
-                <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-xl w-96">
+                <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-sm w-96">
                   <div class="p-6">
                     <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-100">
                       1. Innovation:
@@ -70,7 +70,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="flex gap-10 justify-center">
-                <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-xl w-96">
+                <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-sm w-96">
                   <div class="p-6">
                     <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-100">
                       2. Integrity:
@@ -84,7 +84,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="flex gap-10 justify-center">
-                <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-xl w-96">
+                <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-sm w-96">
                   <div class="p-6">
                     <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-100">
                       3. Excellence:
@@ -97,7 +97,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="flex gap-10 justify-center">
-                <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-xl w-96">
+                <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-sm w-96">
                   <div class="p-6">
                     <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-100">
                       4. Empowerment:
@@ -114,7 +114,7 @@ export default function AboutPage() {
           </div>
 
           {/* Approach */}
-          <div class="w-[90%] text-justify mx-auto px-6 flex flex-col justify-center items-center">
+          <div class="w-[90%] max-sm:w-[100%]  text-justify mx-auto px-6 flex flex-col justify-center items-center">
             <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
               <h1 class="mt-2 text-3xl font-black   text-gray-300">
                 Our Approach
@@ -140,7 +140,7 @@ export default function AboutPage() {
               mutual goals.
             </p>
           </div>
-          <div class="w-[90%] text-justify mx-auto px-6 flex flex-col justify-center items-center">
+          <div class="w-[90%] mt-10 max-sm:w-[100%]  text-justify mx-auto px-6 flex flex-col justify-center items-center">
             <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
               <h1 class="mt-2 text-3xl font-black   text-gray-300">Our Team</h1>
             </div>
@@ -154,15 +154,15 @@ export default function AboutPage() {
 
           <div className="pt-32 pb-12 md:pt-40 md:pb-20">
             <div className="text-center pb-12 md:pb-16 flex flex-col justify-center items-center">
-              <h1 className="text-[50px] text-gray-200 w-[90%] max-sm:text-[30px] font-bold leading-tighter tracking-tighter mb-4">
+              <h1 className="text-[50px] text-gray-200 w-[90%] max-sm:w-[100%]  max-sm:text-[30px] font-bold leading-tighter tracking-tighter mb-4">
                 Join Us on the Journey
                 <br />
-                <span className="bg-clip-text font-Smooch tracking-wider pr-10 text-transparent bg-gradient-to-r from-blue-500 to-teal-400 max-sm:text-[60px] ">
+                <span className="bg-clip-text font-Smooch tracking-wider pr-10 max-sm:pr-0 text-transparent bg-gradient-to-r from-blue-500 to-teal-400 max-sm:text-[24px] opacity-70">
                   Your Path to Unprecedented Growth
                 </span>
               </h1>
               <div className="max-w-[80%] mx-auto">
-                <p className="text-xl text-gray-300 mb-8 font-poppins">
+                <p className="text-xl max-sm:text-sm text-gray-300 mb-8 font-poppins">
                   PhoeTech invites you to join us on a journey of innovation,
                   growth, and digital transformation. Together, let's turn
                   challenges into opportunities and build a future where your
@@ -174,12 +174,13 @@ export default function AboutPage() {
                   data-aos-delay="300"
                 >
                   <div>
-                    <a
-                      className="font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out px-8 py-3 shadow-lg text-gray-100 bg-blue-700 hover:bg-blue-600 w-full sm:w-auto sm:ml-4"
+                    <Link
+                      to="/contact"
+                      className="font-medium max-sm:text-sm inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out px-8 py-3 shadow-lg text-gray-100 bg-blue-700 hover:bg-blue-600 w-full sm:w-auto sm:ml-4"
                       href="#0"
                     >
                       Contact Us to Begin the Journey ➜
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
