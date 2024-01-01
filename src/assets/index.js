@@ -1,3 +1,3 @@
 import airbnbLogo from "./airbnb.png";
-
-export { airbnbLogo };
+import LogoText from "./LogoText.png";
+export { airbnbLogo, LogoText };

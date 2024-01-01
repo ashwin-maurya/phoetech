@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { navLinks } from "../constants";
 import ScrollProgress from "./ScrollProgress ";
 import { Link, useLocation } from "react-router-dom";
-import { airbnbLogo } from "../../assets";
+import { LogoText } from "../../assets";
 import ServicesModal from "./ServicesModal";
 const Navbar = () => {
   const [scrollDirection, setScrollDirection] = useState("up");
@@ -49,7 +49,7 @@ const Navbar = () => {
         <header className="flex items-center dark:border-darkBorderAll dark:bg-darkBgMain h-[80px] w-full">
           <nav className="flex justify-between items-center w-full">
             <div className="h-full flex justify-center items-center ml-10">
-              <img src={airbnbLogo} className="h-[40px] invert" alt="" />
+              <img src={LogoText} className="h-[50px]" alt="" />
             </div>
             <div className="flex items-center w-auto mr-10">
               <ul className="flex-1 flex items-center gap-8 max-md:hidden ml-5">
