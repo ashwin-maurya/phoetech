@@ -22,7 +22,7 @@ const ScrollProgress = () => {
 
   return (
     <div
-      className="absolute  scroll-progress h-[4px] dark:bg-secondary bg-primaryMain"
+      className="absolute  scroll-progress h-[4px] bg-secondary "
       style={{ width: `${scrollProgress}%` }}
     ></div>
   );

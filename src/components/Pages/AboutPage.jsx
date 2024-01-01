@@ -57,12 +57,12 @@ export default function AboutPage() {
             </div>
             <div className="flex w-full flex-wrap justify-around mx-auto">
               <div className="flex gap-10 justify-center">
-                <div class="relative flex flex-col mt-6  bg-gray-100 shadow-md bg-clip-border rounded-xl w-96">
+                <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-xl w-96">
                   <div class="p-6">
-                    <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                    <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-100">
                       1. Innovation:
                     </h5>
-                    <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                    <p class="block font-sans text-gray-100  text-base antialiased font-light leading-relaxed ">
                       We embrace creativity and curiosity, constantly seeking
                       new and better ways to drive success for our clients.
                     </p>
@@ -70,12 +70,12 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="flex gap-10 justify-center">
-                <div class="relative flex flex-col mt-6  bg-gray-100 shadow-md bg-clip-border rounded-xl w-96">
+                <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-xl w-96">
                   <div class="p-6">
-                    <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                    <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-100">
                       2. Integrity:
                     </h5>
-                    <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                    <p class="block font-sans text-gray-100  text-base antialiased font-light leading-relaxed ">
                       Trust is the foundation of any successful partnership. We
                       prioritize honesty, transparency, and ethical business
                       practices.
@@ -84,12 +84,12 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="flex gap-10 justify-center">
-                <div class="relative flex flex-col mt-6  bg-gray-100 shadow-md bg-clip-border rounded-xl w-96">
+                <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-xl w-96">
                   <div class="p-6">
-                    <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                    <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-100">
                       3. Excellence:
                     </h5>
-                    <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                    <p class="block font-sans text-gray-100  text-base antialiased font-light leading-relaxed ">
                       We strive for excellence in everything we do, setting high
                       standards for ourselves and our solutions.
                     </p>
@@ -97,12 +97,12 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="flex gap-10 justify-center">
-                <div class="relative flex flex-col mt-6  bg-gray-100 shadow-md bg-clip-border rounded-xl w-96">
+                <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-xl w-96">
                   <div class="p-6">
-                    <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                    <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-100">
                       4. Empowerment:
                     </h5>
-                    <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                    <p class="block font-sans text-gray-100  text-base antialiased font-light leading-relaxed ">
                       PhoeTech is dedicated to empowering businesses by
                       providing the tools and knowledge needed for sustainable
                       growth.
@@ -175,7 +175,7 @@ export default function AboutPage() {
                 >
                   <div>
                     <a
-                      className="font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out px-8 py-3 shadow-lg text-white bg-blue-700 hover:bg-blue-600 w-full sm:w-auto sm:ml-4"
+                      className="font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out px-8 py-3 shadow-lg text-gray-100 bg-blue-700 hover:bg-blue-600 w-full sm:w-auto sm:ml-4"
                       href="#0"
                     >
                       Contact Us to Begin the Journey ➜

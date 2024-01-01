@@ -12,9 +12,9 @@ import ContactPage from "./components/Pages/ContactPage";
 import ServicesPage from "./components/Pages/ServicesPage";
 const App = () => (
   <>
-    <div className="container">
-      <Router>
-        <Navbar />
+    <Router>
+      <Navbar />
+      <div className="container relative">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/home" element={<LandingPage />} />
@@ -23,8 +23,8 @@ const App = () => (
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer />
-      </Router>
-    </div>
+      </div>
+    </Router>
   </>
 );
 

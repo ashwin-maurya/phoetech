@@ -4,10 +4,8 @@ export default function Footer() {
   return (
     <>
       <footer>
-        <div className="max-w-6xl mx-auto px-4 px-6">
-          {/* Top area: Blocks */}
+        <div className=" mx-auto bg-white px-6">
           <div className="grid grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
-            {/* 1st block */}
             <div className="col-span-12 lg:col-span-3">
               <div className="mb-2">
                 <img src={airbnbLogo} className="max-h-14" alt="" />

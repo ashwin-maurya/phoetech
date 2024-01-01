@@ -13,6 +13,7 @@
 
 body {
   overflow-x: hidden;
+  background-color: aliceblue;
 }
 ::-webkit-scrollbar {
   display: none;

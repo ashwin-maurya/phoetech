@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <>
       <div
-        class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen bg-center bg-cover bg-no-repeat text-white overflow-hidden"
+        class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen max-h-[700px] bg-center bg-cover bg-no-repeat text-white overflow-hidden"
         style={{
           backgroundImage: `url("https://assets-global.website-files.com/651eca60cff32289631b0f08/651eea6facd1cf1eb6610289_planet-volumes-logNx9b2oEQ-unsplash-p-2000.jpg")`,
         }}
