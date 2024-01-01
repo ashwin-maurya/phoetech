@@ -31,7 +31,9 @@ const Navbar = () => {
         id="navbar"
         ref={navbarRef}
         className={`${
-          isPageAtTop ? " bg-transparent" : "bg-[#fffffff3] backdrop-blur-sm "
+          isPageAtTop
+            ? " bg-transparent"
+            : "bg-[#fffffff3] backdrop-blur-sm   border-gray-200"
         }  fixed w-full top-0 select-none z-50 transition-all ease-in-out duration-300`}
       >
         <header className="flex items-center dark:border-darkBorderAll  dark:bg-darkBgMain  h-[80px] w-full ">

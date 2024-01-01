@@ -16,7 +16,7 @@ export default function WhyChooseUs() {
 
             <a
               href="#"
-              class="inline-flex items-center font-medium text-primary-600 hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700"
+              class="inline-flex items-center font-medium text-primary-600 hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700 text-white"
             >
               Get Started ➜
             </a>
