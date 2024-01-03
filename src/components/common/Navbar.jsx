@@ -66,7 +66,7 @@ const Navbar = () => {
       >
         <header className="flex items-center dark:border-darkBorderAll dark:bg-darkBgMain h-[80px] w-full">
           <nav className="flex justify-between items-center w-full">
-            <div className="h-full flex justify-center items-center ml-10">
+            <div className="h-full flex justify-center items-center ml-10 max-sm:ml-5">
               <img src={LogoText} className="h-[50px]" alt="" />
             </div>
             <div className="flex items-center w-auto mr-10 max-md:mr-5">

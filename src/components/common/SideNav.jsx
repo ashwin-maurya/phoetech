@@ -33,7 +33,7 @@ export default function SideNav(props) {
                 onClick={toggleServices}
               >
                 <span
-                  className={`hover:text-white text-gray-300 font-montserrat leading-normal py-5 text-2xl font-semibold transition-all ease-in-out duration-300`}
+                  className={`hover:text-white text-gray-300 font-montserrat leading-normal py-0 text-2xl font-semibold transition-all ease-in-out duration-300`}
                 >
                   Our Services
                 </span>
@@ -43,28 +43,28 @@ export default function SideNav(props) {
                     aria-labelledby="dropdownInformdropdownAvatarNameButtonationButton"
                   >
                     <li onClick={NavStatus}>
-                      <span
+                      <Link
                         to="/Product/Revenue-Boosting-Frameworks"
-                        className="block px-4 py-2 hover:bg-gray-100 "
+                        className="block px-4 py-2  "
                       >
                         1. Revenue Boosting Frameworks
-                      </span>
+                      </Link>
                     </li>
                     <li onClick={NavStatus}>
-                      <span
+                      <Link
                         to="/Product/Finance-Management"
-                        className="block px-4 py-2 hover:bg-gray-100 "
+                        className="block px-4 py-2  "
                       >
                         2. Finance Management
-                      </span>
+                      </Link>
                     </li>
                     <li onClick={NavStatus}>
-                      <span
+                      <Link
                         to="/Product/Digital-Transformation"
-                        className="block px-4 py-2 hover:bg-gray-100 "
+                        className="block px-4 py-2  "
                       >
                         3. Digital Transformation
-                      </span>
+                      </Link>
                     </li>
                   </ul>
                 )}
