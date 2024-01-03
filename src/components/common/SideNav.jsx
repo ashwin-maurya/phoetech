@@ -44,7 +44,7 @@ export default function SideNav(props) {
                   >
                     <li onClick={NavStatus}>
                       <span
-                        to="/"
+                        to="/Product/Revenue-Boosting-Frameworks"
                         className="block px-4 py-2 hover:bg-gray-100 "
                       >
                         1. Revenue Boosting Frameworks
@@ -52,7 +52,7 @@ export default function SideNav(props) {
                     </li>
                     <li onClick={NavStatus}>
                       <span
-                        to="/"
+                        to="/Product/Finance-Management"
                         className="block px-4 py-2 hover:bg-gray-100 "
                       >
                         2. Finance Management
@@ -60,7 +60,7 @@ export default function SideNav(props) {
                     </li>
                     <li onClick={NavStatus}>
                       <span
-                        to="/"
+                        to="/Product/Digital-Transformation"
                         className="block px-4 py-2 hover:bg-gray-100 "
                       >
                         3. Digital Transformation

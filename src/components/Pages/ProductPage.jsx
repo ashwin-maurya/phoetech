@@ -15,22 +15,22 @@ export default function ProductPage() {
     <>
       <section class="bg-gray-100 py-8 mt-20">
         <div class="container mx-auto flex flex-col justify-center items-center text-center px-4">
-          <h2 class="text-4xl w-[80%] font-bold text-gray-800 mb-4">
+          <h2 class="text-4xl max-sm:text-xl max-sm:w-[100%] w-[80%] font-bold text-gray-800 mb-4">
             {" "}
             {ProductData.title}
           </h2>
-          <p class="mx-auto my-4 w-full max-w-[70%] max-sm:max-w-full max-sm:text-sm bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-800">
+          <p class="mx-auto my-4 max-sm:my-0 w-full max-w-[70%] max-sm:max-w-full max-sm:text-sm bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-800">
             {ProductData.description}
           </p>
-          <h2 class="my-10 text-2xl font-bold text-gray-800">
+          <h2 class="my-10 max-sm:mb-4 text-2xl font-bold text-gray-800">
             {" "}
-            Key Features (RBF)
+            Key Features{" "}
           </h2>
-          <div class="flex flex-wrap -mx-4">
+          <div class="flex flex-wrap justify-center -mx-4">
             {ProductData.features &&
               ProductData.features.map((feature, index) => (
                 <div class="w-full md:w-1/3 px-4 mb-8" key={index}>
-                  <div class="bg-white p-8 shadow-md rounded-md">
+                  <div class="bg-white p-8 max-sm:p-4 shadow-md rounded-md">
                     <i
                       class={feature.icon + " text-4xl text-blue-500 mb-4"}
                     ></i>
@@ -52,11 +52,11 @@ export default function ProductPage() {
                 <span class="text-primary mb-2 block text-lg font-semibold">
                   Our Services
                 </span>
-                <h2 class="text-dark text-black mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]">
-                  Unique Selling Propositions (USPs)
+                <h2 class="text-dark text-black mb-3 text-3xl max-sm:text-2xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]">
+                  Unique Selling Propositions
                 </h2>
                 <p class="text-body-color text-base text-dark-6">
-                  PhoeTech RBF Solutions - Unleash Your Revenue Potential
+                  - Unleash Your Revenue Potential
                 </p>
               </div>
             </div>
@@ -66,7 +66,30 @@ export default function ProductPage() {
               ProductData.Propositions.map((proposition, index) => (
                 <div class="w-full px-4 md:w-1/2 lg:w-1/3" key={index}>
                   <div class="mb-9 rounded-[20px] bg-white bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10">
-                    <div class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"></div>
+                    <div class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="w-8 h-8 text-gray-900"
+                      >
+                        <line x1="4" y1="21" x2="4" y2="14"></line>
+                        <line x1="4" y1="10" x2="4" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="12"></line>
+                        <line x1="12" y1="8" x2="12" y2="3"></line>
+                        <line x1="20" y1="21" x2="20" y2="16"></line>
+                        <line x1="20" y1="12" x2="20" y2="3"></line>
+                        <line x1="1" y1="14" x2="7" y2="14"></line>
+                        <line x1="9" y1="8" x2="15" y2="8"></line>
+                        <line x1="17" y1="16" x2="23" y2="16"></line>
+                      </svg>
+                    </div>
                     <h4 class="text-dark text-black mb-[14px] text-2xl font-semibold">
                       {proposition.title}
                     </h4>

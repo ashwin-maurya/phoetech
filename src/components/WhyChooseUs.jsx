@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function WhyChooseUs() {
   return (
     <>
@@ -14,12 +14,12 @@ export default function WhyChooseUs() {
               scalable and adaptable solutions to meet your unique needs.
             </p>
 
-            <a
-              href="#"
+            <Link
+              to="/Product/Digital-Transformation"
               class="inline-flex items-center font-medium text-primary-600 hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700 text-white"
             >
               Get Started ➜
-            </a>
+            </Link>
           </div>
         </div>
       </section>

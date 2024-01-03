@@ -11,17 +11,17 @@ export default function Hero() {
       >
         <div class="relative z-10 flex flex-col justify-center items-center mt-20 text-center ">
           <h1 class="text-5xl 2xl:text-6xl mt-5 2xl:mt-10 max-sm:text-3xl font-bold leading-tight mb-2 font-serif max-sm:mt-16">
-            Welcome to Phoetech
+            Welcome to PhoeTech
           </h1>
           <p class="text-2xl 2xl:text-3xl max-sm:text-lg font-extralight text-gray-300 mb-4 font-poppins bg-clip-text tracking-wider text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
-            - Unleashing D2C Potential
+            Unleashing D2C Potential
           </p>
-          <a
-            href="#"
+          <Link
+            to="/contact"
             className="font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out 2xl:text-xl mt-1 2xl:mt-2 px-8 max-sm:px-6 py-3 max-sm:py-2 shadow-lg text-white bg-blue-600 hover:bg-blue-700 mb-4 sm:w-auto sm:mb-0 font-CooperHevitt"
           >
             Get Started
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -41,7 +41,7 @@ export default function Hero() {
                 data-aos-delay="300"
               >
                 <Link
-                  to="/services"
+                  to="/Product/Finance-Management"
                   className="font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out px-8 py-3 shadow-lg text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
                   href="#0"
                 >
