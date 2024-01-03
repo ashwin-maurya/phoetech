@@ -90,9 +90,6 @@ export default function Services() {
               </div>
             </div>
           </div>
-
-          <div class="absolute bottom-0 left-0 z-0 h-1/3 w-full border-b"></div>
-          <div class="absolute bottom-0 right-0 z-0 h-1/3 w-full"></div>
         </section>
       </div>
     </>

@@ -4,60 +4,55 @@ import { Link } from "react-router-dom";
 export default function Testimonials() {
   return (
     <>
-      <div className="w-full bg-white mx-auto px-6 max-sm:px-2 py-20">
+      <div className="w-full bg-stone-50 mx-auto px-6 max-sm:px-2 py-20">
         {/* Section header */}
-        <div className="w-[90%] flex justify-center items-center flex-col mx-auto">
-          <h2 class="block w-full bg-gradient-to-b text-black font-bold text-4xl text-center mb-5">
-            Why PhoeTech?
-          </h2>
-          <div className="flex w-full flex-wrap justify-around mx-auto">
-            <div className="flex gap-10 justify-center">
-              <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-sm w-80 ">
-                <div class="p-6">
-                  <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-100">
+        <section class="py-8 mt-20 max-md:mt-5 max-sm:mt-0">
+          <div class="container mx-auto text-center px-4">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">
+              {" "}
+              Why PhoeTech?
+            </h2>
+            <div class="flex flex-wrap -mx-4">
+              <div class="w-full md:w-1/3 px-4 mb-8">
+                <div class="bg-white p-8 shadow-md rounded-md">
+                  <i class="fas fa-lock text-4xl text-blue-500 mb-4"></i>
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">
+                    {" "}
                     Proven Expertise:
-                  </h5>
-                  <p class="block font-sans text-gray-100  text-base antialiased font-light leading-relaxed ">
+                  </h3>
+                  <p class="text-gray-600">
                     Our industry experts deliver measurable results for D2C
                     brands
                   </p>
                 </div>
               </div>
-            </div>
-            <div className="flex gap-10 justify-center">
-              <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-sm w-80 ">
-                <div class="p-6">
-                  <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-100">
-                    Innovation at the Core:{" "}
-                  </h5>
-                  <p class="block font-sans text-gray-100  text-base antialiased font-light leading-relaxed ">
+              <div class="w-full md:w-1/3 px-4 mb-8">
+                <div class="bg-white p-8 shadow-md rounded-md">
+                  <i class="fas fa-globe-americas text-4xl text-blue-500 mb-4"></i>
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">
+                    {" "}
+                    Innovation at the Core:
+                  </h3>
+                  <p class="text-gray-600">
                     Stay ahead with our commitment to continuous innovation.
                   </p>
                 </div>
               </div>
-            </div>
-            <div className="flex gap-10 justify-center">
-              <div class="relative flex flex-col mt-6  bg-blue-500 shadow-md bg-clip-border rounded-sm w-80 ">
-                <div class="p-6">
-                  <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-100">
-                    Customer-Centric Approach:{" "}
-                  </h5>
-                  <p class="block font-sans text-gray-100  text-base antialiased font-light leading-relaxed ">
+              <div class="w-full md:w-1/3 px-4 mb-8">
+                <div class="bg-white p-8 shadow-md rounded-md">
+                  <i class="fas fa-users text-4xl text-blue-500 mb-4"></i>
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">
+                    Customer-Centric Approach:
+                  </h3>
+                  <p class="text-gray-600">
                     Your success is our priority; we work closely to align
-                    solutions with your vision.
+                    solutions with your vision.{" "}
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <Link
-            to="/about"
-            className="mx-auto my-6 mt-10 w-full max-w-[80%] bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-600 hover:underline"
-          >
-            Learn More About PhoeTech ➜
-          </Link>
-        </div>
-
+        </section>
         <div className="pt-32">
           <div className="text-center flex flex-col justify-center items-center">
             <h1 className="text-[50px] text-gray-800 w-[90%] max-sm:text-[30px] font-bold leading-tighter tracking-tighter mb-4">
