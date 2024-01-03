@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 export default function ServicesModal({ services }) {
   const modalRef = useRef(null);
 
@@ -25,20 +26,29 @@ export default function ServicesModal({ services }) {
           className="py-2 text-sm text-gray-700 "
           aria-labelledby="dropdownInformdropdownAvatarNameButtonationButton"
         >
-          <li>
-            <span to="/" className="block px-4 py-2 hover:bg-gray-100 ">
+          <li onClick={services}>
+            <Link
+              to="/Product/Revenue-Boosting-Frameworks"
+              className="block px-4 py-2 hover:bg-gray-100 "
+            >
               Revenue Boosting Frameworks
-            </span>
+            </Link>
           </li>
-          <li>
-            <span to="/" className="block px-4 py-2 hover:bg-gray-100 ">
+          <li onClick={services}>
+            <Link
+              to="/Product/Finance-Management"
+              className="block px-4 py-2 hover:bg-gray-100 "
+            >
               Finance Management
-            </span>
+            </Link>
           </li>
-          <li>
-            <span to="/" className="block px-4 py-2 hover:bg-gray-100 ">
+          <li onClick={services}>
+            <Link
+              to="/Product/Digital-Transformation"
+              className="block px-4 py-2 hover:bg-gray-100 "
+            >
               Digital Transformation
-            </span>
+            </Link>
           </li>
         </ul>
       </div>

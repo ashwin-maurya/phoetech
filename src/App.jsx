@@ -6,6 +6,7 @@ import AboutPage from "./components/Pages/AboutPage";
 import ContactPage from "./components/Pages/ContactPage";
 import ServicesPage from "./components/Pages/ServicesPage";
 import ScrollToTop from "./components/common/ScrollToTop";
+import ProductPage from "./components/Pages/ProductPage";
 const App = () => (
   <>
     <Router>
@@ -15,7 +16,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/home" element={<LandingPage />} />
-          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/Product/:type" element={<ProductPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
