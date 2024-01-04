@@ -18,7 +18,7 @@ export default function Hero() {
           </p>
           <Link
             to="/contact"
-            className="font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out 2xl:text-xl mt-1 2xl:mt-2 px-8 max-sm:px-6 py-3 max-sm:py-2 shadow-lg text-white bg-blue-600 hover:bg-blue-700 mb-4 sm:w-auto sm:mb-0 font-CooperHevitt"
+            className="font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out 2xl:text-xl mt-1 2xl:mt-2 px-8 max-sm:px-6 py-3 max-sm:py-2 shadow-lg text-white bg-blue-600 hover:bg-blue-700 mb-4 sm:w-auto sm:mb-0 font-CooperHevittBold"
           >
             Get Started
           </Link>
@@ -28,9 +28,9 @@ export default function Hero() {
       <div className=" mx-auto px-4 sm:px-6">
         <div className="py-24 ">
           <div className="text-center pb-12 md:pb-16 flex flex-col justify-center items-center">
-            <h1 className="text-[50px] w-[90%] max-sm:text-[30px] font-bold leading-tighter tracking-tighter mb-4">
+            <h1 className="text-[50px] w-[90%] max-sm:text-[30px] font-CooperHevittBold font-bold leading-tighter tracking-tighter mb-4">
               Elevate Your Business with PhoeTech's Services <br />
-              <span className="bg-clip-text font-Smooch tracking-wider pr-10 max-sm:pr-0 text-transparent bg-gradient-to-r from-blue-500 to-teal-400 max-sm:text-[24px] opacity-70">
+              <span className="bg-clip-text font-poppins tracking-wide text-transparent bg-gradient-to-r from-blue-500 to-teal-400 text-[40px] max-sm:text-[30px] opacity-70">
                 Your Path to Unprecedented Growth
               </span>
             </h1>

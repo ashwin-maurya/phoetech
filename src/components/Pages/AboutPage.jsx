@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function AboutPage() {
   return (
     <>
-      <section class="flex items-center  font-poppins bg-gray-800  pt-24">
+      <section class="flex items-center bg-gray-800  pt-24">
         <div class="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
           <div class="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
             <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
@@ -157,7 +157,7 @@ export default function AboutPage() {
               <h1 className="text-[50px] text-gray-200 w-[90%] max-sm:w-[100%]  max-sm:text-[30px] font-bold leading-tighter tracking-tighter mb-4">
                 Join Us on the Journey
                 <br />
-                <span className="bg-clip-text font-Smooch tracking-wider pr-10 max-sm:pr-0 text-transparent bg-gradient-to-r from-blue-500 to-teal-400 max-sm:text-[24px] opacity-70">
+                <span className="bg-clip-text font-poppins tracking-wide text-transparent bg-gradient-to-r from-blue-500 to-teal-400 text-[40px] max-sm:text-[30px] opacity-70">
                   Your Path to Unprecedented Growth
                 </span>
               </h1>

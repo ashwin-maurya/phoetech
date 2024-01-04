@@ -1,10 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import { LogoText } from "../../assets";
 import { Link } from "react-router-dom";
+
 export default function Footer() {
+  const [subscribed, setSubscribed] = useState(false);
+  const [email, setEmail] = useState("");
+
+  const handleSubscribe = () => {
+    // Check if the email is not empty
+    if (email.trim() !== "") {
+      // For demonstration purposes, let's set the subscribed state to true
+      setSubscribed(true);
+
+      // Reset subscribed state after 5 seconds (5000 milliseconds)
+      setTimeout(() => {
+        setSubscribed(false);
+      }, 5000);
+
+      // Clear the email input field
+      setEmail("");
+    }
+  };
   return (
     <>
-      <footer>
+      <footer className="font-poppins">
         <div className=" mx-auto bg-white px-6">
           <div className="grid grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
             <div className="col-span-12 lg:col-span-3">
@@ -147,7 +166,7 @@ export default function Footer() {
                     to="/contact"
                     className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                   >
-                    Company values
+                    Contact
                   </Link>
                 </li>
                 <li className="mb-2">
@@ -173,9 +192,14 @@ export default function Footer() {
             <div className="col-span-6 md:col-span-3 lg:col-span-3">
               <h6 className="text-gray-800 font-medium mb-2">Subscribe</h6>
               <p className="text-sm text-gray-600 mb-4">
-                Get the latest news and articles to your inbox every month.
+                Get the latest news right into your inbox.
               </p>
-              <form>
+              <form
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  handleSubscribe();
+                }}
+              >
                 <div className="flex flex-wrap mb-4">
                   <div className="w-full">
                     <label
@@ -190,10 +214,13 @@ export default function Footer() {
                         type="email"
                         className="form-input w-full text-gray-800 px-3 py-2 pr-12 text-sm bg-white border border-gray-300 focus:border-gray-500 rounded"
                         placeholder="Your email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
                         required
                       />
                       <button
                         type="submit"
+                        name="submit"
                         className="absolute inset-0 left-auto"
                         aria-label="Subscribe"
                       >
@@ -213,11 +240,14 @@ export default function Footer() {
                         </svg>
                       </button>
                     </div>
-                    {/* Success message */}
-                    {/* <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p> */}
                   </div>
                 </div>
               </form>
+              {subscribed && (
+                <p className="text-green-600 w-auto z-[999999] fixed top-10 left-[50%] transform -translate-x-1/2 p-5 rounded-sm bg-gray-800 text-center my-10">
+                  You are now subscribbed to our Tech Posts
+                </p>
+              )}
             </div>
           </div>
 

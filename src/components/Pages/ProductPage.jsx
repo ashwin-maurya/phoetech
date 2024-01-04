@@ -15,14 +15,14 @@ export default function ProductPage() {
     <>
       <section class="bg-gray-100 py-8 mt-20">
         <div class="container mx-auto flex flex-col justify-center items-center text-center px-4">
-          <h2 class="text-4xl max-sm:text-xl max-sm:w-[100%] w-[80%] font-bold text-gray-800 mb-4">
+          <h2 class="text-4xl font-serif max-sm:text-xl max-sm:w-[100%] w-[80%] font-bold text-gray-800 mb-4">
             {" "}
             {ProductData.title}
           </h2>
-          <p class="mx-auto my-4 max-sm:my-0 w-full max-w-[70%] max-sm:max-w-full max-sm:text-sm bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-800">
+          <p class="mx-auto my-4 max-sm:my-0 w-full max-w-[70%] max-sm:max-w-full max-sm:text-sm bg-transparent text-center font-poppins font-medium leading-relaxed tracking-wide text-gray-800">
             {ProductData.description}
           </p>
-          <h2 class="my-10 max-sm:mb-4 text-2xl font-bold text-gray-800">
+          <h2 class="my-10 max-sm:mb-4 text-2xl font-CooperHevittBold font-bold text-gray-800">
             {" "}
             Key Features{" "}
           </h2>
@@ -34,10 +34,10 @@ export default function ProductPage() {
                     <i
                       class={feature.icon + " text-4xl text-blue-500 mb-4"}
                     ></i>
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">
+                    <h3 class="text-2xl font-CooperHevittBold font-bold text-gray-800 mb-2">
                       {feature.title}
                     </h3>
-                    <p class="text-gray-600">{feature.content}</p>
+                    <p class="text-gray-600 font-poppins">{feature.content}</p>
                   </div>
                 </div>
               ))}
@@ -52,10 +52,10 @@ export default function ProductPage() {
                 <span class="text-primary mb-2 block text-lg font-semibold">
                   Our Services
                 </span>
-                <h2 class="text-dark text-black mb-3 text-3xl max-sm:text-2xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]">
+                <h2 class="text-dark text-black mb-3 text-3xl max-sm:text-2xl leading-[1.2] font-bold sm:text-4xl md:text-[40px] font-serif">
                   Unique Selling Propositions
                 </h2>
-                <p class="text-body-color text-base text-dark-6">
+                <p class="text-body-color text-base text-dark-6 font-CooperHevittBold">
                   - Unleash Your Revenue Potential
                 </p>
               </div>
@@ -90,10 +90,10 @@ export default function ProductPage() {
                         <line x1="17" y1="16" x2="23" y2="16"></line>
                       </svg>
                     </div>
-                    <h4 class="text-dark text-black mb-[14px] text-2xl font-semibold">
+                    <h4 class="text-dark font-CooperHevittBold text-black mb-[14px] text-2xl font-semibold">
                       {proposition.title}
                     </h4>
-                    <p class="text-body-color text-dark-6">
+                    <p class="text-body-color font-poppins text-dark-6">
                       {proposition.content}
                     </p>
                   </div>
@@ -104,7 +104,7 @@ export default function ProductPage() {
       </section>
       <div className="py-10 pb-20">
         <div className="text-center flex flex-col justify-center items-center">
-          <h1 className="text-[50px] text-gray-800 w-[90%] max-sm:text-[30px] font-bold leading-tighter tracking-tighter mb-4">
+          <h1 className="text-[50px] text-gray-800 w-[90%] max-sm:text-[30px] font-bold leading-tighter tracking-tighter mb-4 font-CooperHevittBold ">
             Ready to Elevate Your Revenue?
           </h1>
           <div className="max-w-[80%] mx-auto">

@@ -6,10 +6,10 @@ export default function Services() {
       <div class="">
         <section id="features" class="relative block px-6 py-32">
           <div class="relative mx-auto max-w-5xl text-center">
-            <h2 class="block w-full bg-gradient-to-b from-black to-gray-500 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
+            <h2 class="block w-full bg-gradient-to-b from-black to-gray-500 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl font-CooperHevittBold ">
               Elevate Your Revenue with PhoeTech's RBF Solutions
             </h2>
-            <p class="mx-auto my-4 w-full max-w-[80%] max-sm:max-w-full max-sm:text-sm bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-800">
+            <p class="mx-auto my-4 w-full max-w-[80%] max-sm:max-w-full max-sm:text-sm bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-800 font-poppins">
               At PhoeTech, we specialize in Revenue Boosting Frameworks (RBF)
               tailored for Direct-to-Consumer (D2C) businesses. Discover
               innovative strategies designed to propel your brand's growth, from
@@ -32,10 +32,10 @@ export default function Services() {
                   ></path>
                   <path d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z"></path>
                 </svg>
-                <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                <h5 class="block mb-2 text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 font-CooperHevittBold ">
                   RBF Expertise for Explosive Growth
                 </h5>
-                <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                <p class="block text-base antialiased font-light leading-relaxed text-inherit font-poppins">
                   Unlock the potential of your brand with our custom RBF
                   strategies. Watch your revenue soar as we implement dynamic
                   pricing models and create personalized customer experiences.
@@ -77,10 +77,10 @@ export default function Services() {
                   <line x1="16" y1="16" x2="16.01" y2="16"></line>
                   <line x1="16" y1="20" x2="16.01" y2="20"></line>
                 </svg>
-                <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                <h5 class="block mb-2 text-xl leading-snug tracking-normal  font-CooperHevittBold font-extrabold">
                   Comprehensive SaaS Solutions
                 </h5>
-                <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                <p class="block font-poppins text-base antialiased font-light leading-relaxed text-inherit">
                   PhoeTech goes beyond RBF, offering a suite of Supporting SaaS
                   Solutions to optimize every aspect of your business.
                 </p>

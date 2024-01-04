@@ -8,7 +8,7 @@ export default function Testimonials() {
         {/* Section header */}
         <section class="py-8 mt-20 max-md:mt-5 max-sm:mt-0">
           <div class="container mx-auto text-center px-4">
-            <h2 class="text-2xl font-bold text-gray-800 mb-4">
+            <h2 class="text-3xl font-bold font-serif text-gray-800 mb-10">
               {" "}
               Why PhoeTech?
             </h2>
@@ -16,11 +16,11 @@ export default function Testimonials() {
               <div class="w-full md:w-1/3 px-4 mb-8">
                 <div class="bg-white p-8 shadow-md rounded-md">
                   <i class="fas fa-lock text-4xl text-blue-500 mb-4"></i>
-                  <h3 class="text-xl font-bold text-gray-800 mb-2">
+                  <h3 class="text-xl font-[900] font-CooperHevittBold text-gray-800 mb-2">
                     {" "}
                     Proven Expertise:
                   </h3>
-                  <p class="text-gray-600">
+                  <p class="text-gray-600  font-poppins">
                     Our industry experts deliver measurable results for D2C
                     brands
                   </p>
@@ -29,11 +29,11 @@ export default function Testimonials() {
               <div class="w-full md:w-1/3 px-4 mb-8">
                 <div class="bg-white p-8 shadow-md rounded-md">
                   <i class="fas fa-globe-americas text-4xl text-blue-500 mb-4"></i>
-                  <h3 class="text-xl font-bold text-gray-800 mb-2">
+                  <h3 class="text-xl font-[900] font-CooperHevittBold text-gray-800 mb-2">
                     {" "}
                     Innovation at the Core:
                   </h3>
-                  <p class="text-gray-600">
+                  <p class="text-gray-600 font-poppins">
                     Stay ahead with our commitment to continuous innovation.
                   </p>
                 </div>
@@ -41,10 +41,10 @@ export default function Testimonials() {
               <div class="w-full md:w-1/3 px-4 mb-8">
                 <div class="bg-white p-8 shadow-md rounded-md">
                   <i class="fas fa-users text-4xl text-blue-500 mb-4"></i>
-                  <h3 class="text-xl font-bold text-gray-800 mb-2">
+                  <h3 class="text-xl font-[900] font-CooperHevittBold text-gray-800 mb-2">
                     Customer-Centric Approach:
                   </h3>
-                  <p class="text-gray-600">
+                  <p class="text-gray-600 font-poppins">
                     Your success is our priority; we work closely to align
                     solutions with your vision.{" "}
                   </p>
@@ -55,7 +55,7 @@ export default function Testimonials() {
         </section>
         <div className="pt-32">
           <div className="text-center flex flex-col justify-center items-center">
-            <h1 className="text-[50px] text-gray-800 w-[90%] max-sm:text-[30px] font-bold leading-tighter tracking-tighter mb-4">
+            <h1 className="text-[50px] text-gray-800 w-[90%] max-sm:text-[30px] font-bold leading-tighter tracking-tighter mb-4 font-CooperHevittBold">
               Ready to Transform Your Digital Presence?
             </h1>
             <div className="max-w-[80%] mx-auto">

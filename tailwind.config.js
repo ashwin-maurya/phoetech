@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         CooperHevitt: ["CooperHewitt-Light", "sans-serif"],
+        CooperHevittBold: ["CooperHewitt-Semibold", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
         Smooch: ["Smooch-Regular", "sans-serif"],
       },

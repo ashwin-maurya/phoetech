@@ -17,8 +17,8 @@ export default function SideNav(props) {
         className="backdrop-blur-sm fixed select-none w-screen sidenav bg-Opacitywhite h-[100vh] overflow-hidden  z-[49] transition-all ease-in-out delay-75 duration-200"
       >
         <div className="w-full flex justify-start  items-center select-none h-full bg-gray-800 shadow-lg overflow-hidden dark:bg-darkBgMain flex-col">
-          <div className="flex w-auto  mt-44">
-            <ul className="flex-1 flex items-center flex-col  gap-8 ml-5">
+          <div className="flex w-auto  mt-24">
+            <ul className="flex-1 flex items-center flex-col  gap-14 ml-5">
               <li onClick={NavStatus}>
                 <Link
                   to="/home"

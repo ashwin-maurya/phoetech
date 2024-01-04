@@ -19,8 +19,8 @@ export default function ServicesModal({ services }) {
       ></div>
 
       <div
-        id="dropdownAvatarName"
-        className="z-[999999] block absolute left-0 top-8 bg-white divide-y divide-gray-100 rounded-sm shadow-sm w-48 dark:bg-darkBgPrimary  border "
+        id="dropdownAvatarName "
+        className="z-[999999] font-poppins block absolute left-0 top-8 bg-white divide-y divide-gray-100 rounded-sm shadow-sm w-48 dark:bg-darkBgPrimary  border "
       >
         <ul
           className="py-2 text-sm text-gray-700 "

@@ -30,6 +30,11 @@ body {
   src: local("CooperHewitt-Light"),
     url(./fonts/CooperHewitt-Light.otf) format("opentype");
 }
+@font-face {
+  font-family: "CooperHewitt-Semibold";
+  src: local("CooperHewitt-Semibold"),
+    url(./fonts/CooperHewitt-Semibold.otf) format("opentype");
+}
 
 @font-face {
   font-family: "Smooch-Regular";
