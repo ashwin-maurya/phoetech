@@ -35,6 +35,7 @@ const Navbar = () => {
   const isHomePage =
     location.pathname === "/home" ||
     location.pathname === "/" ||
+    location.pathname.includes("/Product") ||
     location.pathname === "/about";
 
   const services = () => {
@@ -59,16 +60,19 @@ const Navbar = () => {
         id="navbar"
         ref={navbarRef}
         className={`${
-          isPageAtTop && isHomePage
+          (isPageAtTop && isHomePage) || showNav
             ? "bg-transparent"
             : "bg-[#fffffff3] backdrop-blur-sm border-gray-200"
         } fixed w-full top-0 select-none z-50 transition-all ease-in-out duration-300`}
       >
         <header className="flex items-center dark:border-darkBorderAll dark:bg-darkBgMain h-[80px] w-full">
           <nav className="flex justify-between items-center w-full">
-            <div className="h-full flex justify-center items-center ml-10 max-sm:ml-5">
+            <Link
+              to="/"
+              className="h-full cursor-pointer flex justify-center items-center ml-10 max-sm:ml-5"
+            >
               <img src={LogoText} className="h-[50px]" alt="" />
-            </div>
+            </Link>
             <div className="flex items-center w-auto mr-10 max-md:mr-5">
               <ul className="flex-1 flex items-center gap-8 max-md:hidden ml-5">
                 <li>
@@ -151,7 +155,7 @@ const Navbar = () => {
                     className="m-0 w-[55px] h-[35px]"
                     viewBox="0 0 24 24"
                     fill="none"
-                    stroke={`${isPageAtTop && isHomePage ? "white" : "black"}`}
+                    stroke={`${isPageAtTop && isHomePage ? "white" : "white"}`}
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -164,8 +168,7 @@ const Navbar = () => {
             </div>
           </nav>
         </header>
-
-        <ScrollProgress />
+        {!showNav && <ScrollProgress />}
       </section>
     </>
   );

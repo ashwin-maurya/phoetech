@@ -13,7 +13,14 @@ export default function ProductPage() {
   }, [type]);
   return (
     <>
-      <section class="bg-gray-100 py-8 mt-20">
+      <section class="bg-gray-100 pb-8">
+        <div className="bg-black">
+          <img
+            src={ProductData.image}
+            alt="product based image"
+            className="max-h-[400px]  opacity-80 w-full object-cover object-center mb-10"
+          />
+        </div>
         <div class="container mx-auto flex flex-col justify-center items-center text-center px-4">
           <h2 class="text-4xl font-serif max-sm:text-xl max-sm:w-[100%] w-[80%] font-bold text-gray-800 mb-4">
             {" "}
@@ -26,7 +33,7 @@ export default function ProductPage() {
             {" "}
             Key Features{" "}
           </h2>
-          <div class="flex flex-wrap justify-center -mx-4">
+          <div class="flex mx-10 max-sm:mx-0 flex-wrap justify-center ">
             {ProductData.features &&
               ProductData.features.map((feature, index) => (
                 <div class="w-full md:w-1/3 px-4 mb-8" key={index}>
@@ -61,7 +68,7 @@ export default function ProductPage() {
               </div>
             </div>
           </div>
-          <div class="-mx-4 flex flex-wrap">
+          <div class="relative flex flex-wrap">
             {ProductData.Propositions &&
               ProductData.Propositions.map((proposition, index) => (
                 <div class="w-full px-4 md:w-1/2 lg:w-1/3" key={index}>

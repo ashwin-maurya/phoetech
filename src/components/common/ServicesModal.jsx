@@ -28,10 +28,10 @@ export default function ServicesModal({ services }) {
         >
           <li onClick={services}>
             <Link
-              to="/Product/Revenue-Boosting-Frameworks"
+              to="/Product/Revenue-Based-Financing"
               className="block px-4 py-2 hover:bg-gray-100 "
             >
-              Revenue Boosting Frameworks
+              Revenue Based Financing
             </Link>
           </li>
           <li onClick={services}>

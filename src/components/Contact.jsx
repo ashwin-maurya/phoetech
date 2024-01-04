@@ -68,7 +68,7 @@ export default function Contact() {
               First Name*
             </label>
             <input
-              className="appearance-none block w-full bg-gray-50 text-gray-700 border  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+              className="appearance-none block w-full bg-white text-gray-700 border-2 border-gray-200 focus:border-blue-500  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-gray-50"
               id="grid-first-name"
               type="text"
               placeholder="Jane"
@@ -86,7 +86,7 @@ export default function Contact() {
               Last Name*
             </label>
             <input
-              className="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="appearance-none block w-full bg-white text-gray-700 border-2 border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-gray-50 focus:border-blue-500"
               id="grid-last-name"
               type="text"
               placeholder="Doe"
@@ -106,7 +106,7 @@ export default function Contact() {
               Email Address*
             </label>
             <input
-              className="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="appearance-none block w-full bg-white text-gray-700 border-2 border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-gray-50 focus:border-blue-500"
               id="grid-email"
               type="email"
               placeholder="********@*****.**"
@@ -124,7 +124,7 @@ export default function Contact() {
               Phone Number*
             </label>
             <input
-              className="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="appearance-none block w-full bg-white text-gray-700 border-2 border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-gray-50 focus:border-blue-500"
               id="grid-phone"
               type="tel"
               placeholder="Your phone number"
@@ -144,7 +144,7 @@ export default function Contact() {
               Job Title*
             </label>
             <input
-              className="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="appearance-none block w-full bg-white text-gray-700 border-2 border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-gray-50 focus:border-blue-500"
               id="grid-job-title"
               type="text"
               placeholder="Your job title"
@@ -162,7 +162,7 @@ export default function Contact() {
               Company Name*
             </label>
             <input
-              className="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="appearance-none block w-full bg-white text-gray-700 border-2 border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-gray-50 focus:border-blue-500"
               id="grid-company-name"
               type="text"
               placeholder="Your company name"
@@ -183,7 +183,7 @@ export default function Contact() {
             </label>
             <textarea
               rows="5"
-              className="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="appearance-none block w-full bg-white text-gray-700 border-2 border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-gray-50 focus:border-blue-500"
               name="message"
               value={formData.message}
               onChange={handleChange}
@@ -191,7 +191,7 @@ export default function Contact() {
           </div>
           <div className="flex justify-between flex-col w-full px-3">
             <button
-              className="font-medium max-w-[200px] inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out 2xl:text-xl mt-1 2xl:mt-2 px-8 max-sm:px-6 py-3 max-sm:py-2 shadow-lg text-white bg-blue-600 hover:bg-blue-700 mb-4 sm:w-auto sm:mb-0 font-CooperHevitt"
+              className="font-medium max-w-[200px] inline-flex items-center justify-center border-2 border-transparent rounded leading-snug transition duration-150 ease-in-out 2xl:text-xl mt-1 2xl:mt-2 px-8 max-sm:px-6 py-3 max-sm:py-2 shadow-lg text-white bg-blue-600 hover:bg-blue-700 mb-4 sm:w-auto sm:mb-0 font-CooperHevitt"
               type="submit"
               name="submit"
             >
@@ -201,7 +201,7 @@ export default function Contact() {
         </div>
       </form>
       {formSubmitted && (
-        <p className="text-green-600 w-[90%] fixed top-10 left-[50%] transform -translate-x-1/2 p-5 rounded-sm bg-gray-800 text-center my-10">
+        <p className="text-green-600 w-[90%] fixed top-10 left-[50%] transform -translate-x-1/2 p-5 rounded-sm bg-gray-800 text-xl text-center my-10">
           We have received your message, we will try to get back to you as soon
           as possible. Thank you for reaching out to us.
         </p>

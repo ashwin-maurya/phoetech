@@ -44,10 +44,10 @@ export default function SideNav(props) {
                   >
                     <li onClick={NavStatus}>
                       <Link
-                        to="/Product/Revenue-Boosting-Frameworks"
+                        to="/Product/Revenue-Based-Financing"
                         className="block px-4 py-2  "
                       >
-                        1. Revenue Boosting Frameworks
+                        1. Revenue Based Financing
                       </Link>
                     </li>
                     <li onClick={NavStatus}>

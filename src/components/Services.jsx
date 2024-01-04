@@ -10,7 +10,7 @@ export default function Services() {
               Elevate Your Revenue with PhoeTech's RBF Solutions
             </h2>
             <p class="mx-auto my-4 w-full max-w-[80%] max-sm:max-w-full max-sm:text-sm bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-800 font-poppins">
-              At PhoeTech, we specialize in Revenue Boosting Frameworks (RBF)
+              At PhoeTech, we specialize in Revenue Based Financing (RBF)
               tailored for Direct-to-Consumer (D2C) businesses. Discover
               innovative strategies designed to propel your brand's growth, from
               dynamic pricing models to personalized customer experiences.
@@ -43,7 +43,7 @@ export default function Services() {
               </div>
               <div class="p-6 pt-0">
                 <Link
-                  to="/Product/Revenue-Boosting-Frameworks"
+                  to="/Product/Revenue-Based-Financing"
                   class="inline-block"
                 >
                   <button
@@ -87,7 +87,7 @@ export default function Services() {
               </div>
               <div class="p-6 pt-0">
                 <Link
-                  to="/Product/Revenue-Boosting-Frameworks"
+                  to="/Product/Revenue-Based-Financing"
                   class="inline-block"
                 >
                   <button

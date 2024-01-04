@@ -5,20 +5,27 @@ export default function AboutPage() {
     <>
       <section class="flex items-center bg-gray-800  pt-24">
         <div class="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
-          <div class="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
-            <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
-              <span class="text-sm uppercase text-gray-200">Who we are?</span>
-              <h1 class="mt-2 text-3xl font-black  md:text-5xl text-gray-300">
-                Our Story
-              </h1>
+          <div class="w-full flex  px-6 mb-10 max-sm:flex-col-reverse lg:mb-0 ">
+            <div>
+              <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
+                <span class="text-sm uppercase text-gray-200">Who we are?</span>
+                <h1 class="mt-2 text-3xl font-black  md:text-5xl text-gray-300">
+                  Our Story
+                </h1>
+              </div>
+              <p class="mb-6 text-base leading-7  text-gray-200">
+                Welcome to PhoeTech, where innovation meets growth in the
+                dynamic world of Direct-to-Consumer (D2C) businesses. Founded
+                with a passion for transforming digital landscapes, PhoeTech is
+                more than just a technology company – we are your strategic
+                partner in achieving unprecedented success.
+              </p>
             </div>
-            <p class="mb-6 text-base leading-7  text-gray-200">
-              Welcome to PhoeTech, where innovation meets growth in the dynamic
-              world of Direct-to-Consumer (D2C) businesses. Founded with a
-              passion for transforming digital landscapes, PhoeTech is more than
-              just a technology company – we are your strategic partner in
-              achieving unprecedented success.
-            </p>
+            <img
+              src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+              className="rounded-lg ml-10 max-sm:mb-5 object-cover object-center max-sm:ml-0 max-w-[500px] max-sm:w-[100%]"
+            />
           </div>
           <div className="flex w-full justify-between max-sm:flex-col items-center my-20">
             <div class="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">

@@ -6,12 +6,13 @@ export const navLinks = [
 ];
 
 export const product = {
-  "Revenue-Boosting-Frameworks": {
-    type: "Revenue-Boosting-Frameworks",
-    title:
-      "Elevate Your Business with PhoeTech's Revenue Boosting Frameworks(RBF)",
+  "Revenue-Based-Financing": {
+    type: "Revenue-Based-Financing",
+    title: "Elevate Your Business with PhoeTech's Revenue Based Financing(RBF)",
+    image:
+      "https://images.unsplash.com/photo-1555421689-d68471e189f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description:
-      "Welcome to the future of D2C success! PhoeTech's Revenue Boosting Frameworks (RBF) are designed to revolutionize your online business, propelling your brand to new heights of revenue and customer engagement.",
+      "Welcome to the future of D2C success! PhoeTech's Revenue Based Financing (RBF) are designed to revolutionize your online business, propelling your brand to new heights of revenue and customer engagement.",
     contact:
       "PhoeTech's RBF solutions are not just a product; they are a gateway to unlocking your brand's full potential. Join the ranks of successful D2C businesses that have embraced innovation and achieved remarkable growth with PhoeTech.",
     features: [
@@ -57,6 +58,8 @@ export const product = {
   },
   "Finance-Management": {
     type: "Finance-Management",
+    image:
+      "https://www.alphajwc.com/wp-content/uploads/2022/05/business-man-accounting-calculating-cost-economic-budget-investment-saving.jpg",
     title: "Unveiling the Crescendo of Seamless Financial Excellence",
 
     description:
@@ -108,7 +111,8 @@ export const product = {
     type: "Digital-Transformation",
     title:
       "Unleash Limitless Potential with PhoeTech's Digital Transformation Suite",
-
+    image:
+      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description:
       "Welcome to the future of business evolution. PhoeTech's Digital Transformation Suite is not just a service; it's a catalyst for unparalleled growth, efficiency, and innovation. Embrace the power to reshape your business landscape and thrive in the digital age.",
     contact:

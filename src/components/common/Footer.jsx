@@ -27,9 +27,9 @@ export default function Footer() {
         <div className=" mx-auto bg-white px-6">
           <div className="grid grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
             <div className="col-span-12 lg:col-span-3">
-              <div className="mb-2">
+              <Link to="/" className="mb-2">
                 <img src={LogoText} className="max-h-14" alt="" />
-              </div>
+              </Link>
               <div className="text-sm text-gray-600">
                 <Link
                   to="#0"
@@ -69,10 +69,10 @@ export default function Footer() {
                 </li>
                 <li className="mb-2">
                   <Link
-                    to="/Product/Revenue-Boosting-Frameworks"
+                    to="/Product/Revenue-Based-Financing"
                     className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                   >
-                    Revenue Boosting Frameworks
+                    Revenue Based Financing
                   </Link>
                 </li>
                 <li className="mb-2">
