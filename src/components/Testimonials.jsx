@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
 export default function Testimonials() {
   return (
     <>
-      <div className="w-full bg-stone-50 mx-auto px-6 max-sm:px-2 py-20">
+      <div className="w-full bg-stone-50 mx-auto px-6 max-sm:px-2 py-10">
         {/* Section header */}
-        <section class="py-8 mt-20 max-md:mt-5 max-sm:mt-0">
+        <section class="py-8 mt-10 max-md:mt-5 max-sm:mt-0">
           <div class="container mx-auto text-center px-4">
             <h2 class="text-3xl font-bold font-serif text-gray-800 mb-10">
               {" "}
               Why PhoeTech?
             </h2>
-            <div class="flex flex-wrap -mx-4">
+            <div class="flex flex-wrap mx-10 max-sm:mx-0">
               <div class="w-full md:w-1/3 px-4 mb-8">
                 <div class="bg-white p-8 shadow-md rounded-md">
                   <i class="fas fa-lock text-4xl text-blue-500 mb-4"></i>
@@ -53,7 +53,7 @@ export default function Testimonials() {
             </div>
           </div>
         </section>
-        <div className="pt-32">
+        <div className="pt-32 max-sm:pt-20 mb-20">
           <div className="text-center flex flex-col justify-center items-center">
             <h1 className="text-[50px] text-gray-800 w-[90%] max-sm:text-[30px] font-bold leading-tighter tracking-tighter mb-4 font-CooperHevittBold">
               Ready to Transform Your Digital Presence?

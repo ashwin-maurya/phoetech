@@ -17,7 +17,7 @@ export default function Services() {
             </p>
           </div>
           <div className="flex gap-10 justify-center max-sm:flex-col max-sm:gap-5">
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white rounded-sm shadow-sm bg-clip-border w-96 max-sm:w-full">
+            <div class="relative flex flex-col mt-6 text-gray-700 bg-white rounded-sm shadow-md bg-clip-border w-96 max-sm:w-full">
               <div class="p-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

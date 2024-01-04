@@ -14,11 +14,11 @@ export default function ProductPage() {
   return (
     <>
       <section class="bg-gray-100 pb-8">
-        <div className="bg-black">
+        <div className="bg-black ">
           <img
             src={ProductData.image}
             alt="product based image"
-            className="max-h-[400px]  opacity-80 w-full object-cover object-center mb-10"
+            className="min-h-[300px]  opacity-80 w-full object-cover object-center mb-10"
           />
         </div>
         <div class="container mx-auto flex flex-col justify-center items-center text-center px-4">
@@ -51,7 +51,7 @@ export default function ProductPage() {
           </div>
         </div>
       </section>
-      <section class="pt-10 pb-12 w-[90%] mx-auto">
+      <section class="pt-20 pb-12 w-[90%] mx-auto">
         <div class="container mx-auto">
           <div class="-mx-4 flex flex-wrap">
             <div class="w-full px-4">

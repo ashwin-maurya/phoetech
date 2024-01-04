@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import LandingPage from "./components/Pages/LandingPage";
 import AboutPage from "./components/Pages/AboutPage";
 import ContactPage from "./components/Pages/ContactPage";
-import ServicesPage from "./components/Pages/ServicesPage";
 import ScrollToTop from "./components/common/ScrollToTop";
 import ProductPage from "./components/Pages/ProductPage";
+import PageNotFoundPage from "./components/Pages/PageNotFoundPage";
 const App = () => (
   <>
     <Router>
@@ -19,6 +19,7 @@ const App = () => (
           <Route path="/Product/:type" element={<ProductPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="*" element={<PageNotFoundPage />} />
         </Routes>
         <Footer />
       </div>
