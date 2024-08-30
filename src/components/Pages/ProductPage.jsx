@@ -18,7 +18,7 @@ export default function ProductPage() {
           <img
             src={ProductData.image}
             alt="product based image"
-            className="min-h-[300px]  opacity-80 w-full object-cover object-center mb-10"
+            className="min-h-[300px] max-h-[300px]  opacity-80 w-full object-cover object-center mb-10"
           />
         </div>
         <div class="container mx-auto flex flex-col justify-center items-center text-center px-4">

@@ -26,7 +26,7 @@ export default function Hero() {
       </div>
 
       <div className=" mx-auto px-4 sm:px-6">
-        <div className="py-24 ">
+        <div className="py-36 ">
           <div className="text-center pb-12 md:pb-16 flex flex-col justify-center items-center">
             <h1 className="text-[50px] w-[90%] max-sm:text-[30px] font-CooperHevittBold font-bold leading-tighter tracking-tighter mb-4">
               Elevate Your Business with PhoeTech's Services <br />
